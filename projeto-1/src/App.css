@@ -1,0 +1,18 @@
+.container{
+  min-height: 100vh;
+  background-color: #eee;
+}
+.posts{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+  gap: 30px;
+}
+
+.post{
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+}
+
+.post-content{
+  padding: 10px;
+}
