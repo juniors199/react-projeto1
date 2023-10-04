@@ -1,6 +1,9 @@
 .container{
+  max-width: 1200px;
+  margin: 0 auto;
   min-height: 100vh;
   background-color: #eee;
+  padding: 10px
 }
 .posts{
   display: grid;
@@ -11,6 +14,17 @@
 .post{
   background-color: white;
   box-shadow: 0 0 10px gray;
+  transition: transform 100ms ease-in-out;
+  border-radius: 12px;
+}
+
+.post:hover{
+  transform: scale(1.05);
+}
+
+.post img {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .post-content{
